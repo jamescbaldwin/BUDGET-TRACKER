@@ -13,7 +13,7 @@ Budget-Tracker renders a UI via HTML/CSS, with JavaScript for its front-end func
 ```
 ### LINKS
 * (GITHUB)[https://github.com/jamescbaldwin/BUDGET-TRACKER]
-* (DEPLOYMENT)[https://jamescbaldwin.github.io/BUDGET-TRACKER/]
+* (HEROKU)[https://indexed-ledger.herokuapp.com/]
 * (CONTACT)[https://jamescbaldwin.github.io/PORTFOLIO3/]
 ### SCREENSHOT(S)
 <img width="1680" alt="Screen Shot 2021-01-22 at 1 29 59 PM" src="https://user-images.githubusercontent.com/70229636/105530599-01447900-5cb6-11eb-94c7-b74e142067f6.png">
