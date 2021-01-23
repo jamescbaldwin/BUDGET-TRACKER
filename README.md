@@ -3,13 +3,20 @@
 ### USER STORY
 ``` 
 AS AN avid traveller
-I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
+I WANT to be able to track my withdrawals and deposits 
+WITH OR WITHOUT a data/internet connection
 SO THAT my account balance is accurate when I am traveling 
 ```
 
 ### DEVELOPMENT & TECHNOLOGIES
 ```
-Budget-Tracker renders a UI via HTML/CSS, with JavaScript for its front-end functionality (transaction buttons, graph renderings, etc.). IndexedDB is used to create a virtual object store, in which data can be stored and accessed while "offline". A service-worker is also needed to cache all requisite directory files when offline. Together, IndexedDB and service-worker.js provide sufficient functionality for Budget-Tracker users regardless of network access.
+BUDGET-TRACKER RENDERS a UI via HTML/CSS, with JavaScript for its 
+front-end functionality (transaction buttons, graph renderings, etc.). 
+INDEXEDDB IS USED to create a virtual object store, 
+in which data can be stored and accessed while "offline". 
+A SERVICE-WORKER is also needed to cache all requisite directory files when offline. 
+TOGETHER, INDEXEDDB and service-worker.js provide sufficient functionality for 
+Budget-Tracker users regardless of network access.
 ```
 ### LINKS
 * (GITHUB)[https://github.com/jamescbaldwin/BUDGET-TRACKER]
