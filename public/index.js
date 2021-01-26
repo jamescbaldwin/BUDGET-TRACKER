@@ -151,5 +151,5 @@ document.querySelector("#add-btn").addEventListener("click", event => {
 
 document.querySelector("#sub-btn").addEventListener("click", event => {
   event.preventDefault();
-  sendTransaction(true);
+  sendTransaction(false);
 });
