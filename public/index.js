@@ -144,12 +144,11 @@ function sendTransaction(isAdding) {
   });
 }
 
-document.querySelector("#add-btn").addEventListener("click", event => {
-  event.preventDefault();
+document.querySelector("#add-btn").onclick = function() {
+  console.log("ADDED FUNDS!");
   sendTransaction(true);
-});
+};
 
-document.querySelector("#sub-btn").addEventListener("click", event => {
-  event.preventDefault();
+document.querySelector("#sub-btn").onclick = function() {
   sendTransaction(false);
-});
+};

@@ -1,5 +1,3 @@
-console.log("Hello from your service worker!");
-
 const CACHE_NAME = "static-cache-v2";
 const DATA_CACHE_NAME = "data-cache-v1";
 const FILES_TO_CACHE = [
@@ -10,7 +8,7 @@ const FILES_TO_CACHE = [
     "/index.js",
     "/styles.css",
     "/manifest.webmanifest",
-    "/indexedDb.js"
+    // "/indexedDb.js"
 ];
 
 //install
